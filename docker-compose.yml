@@ -1,0 +1,30 @@
+services:
+  server1:
+    image: ubuntu-ssh
+    container_name: ubuntu1
+    ports:
+      - "2201:22"
+
+  server2:
+    image: ubuntu-ssh
+    container_name: ubuntu2
+    ports:
+      - "2202:22"
+
+  server3:
+    image: ubuntu-ssh
+    container_name: ubuntu3
+    ports:
+      - "2203:22"
+
+  server4:
+    image: ubuntu-ssh
+    container_name: ubuntu4
+    ports:
+      - "2204:22"
+
+  server5:
+    image: ubuntu-ssh
+    container_name: ubuntu5
+    ports:
+      - "2205:22"
